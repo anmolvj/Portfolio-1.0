@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+body{
+	font-family: 'Abel', sans-serif;
+	width: 70%;
+	height: 100vh;
+	margin: auto;
+	background-color: #ffffe6;
+}
+
+.icon{
+	height: 3vw;
+	width: 3vw;
+	padding: 1vw;
+}
+
+.list{
+	list-style: none;
+	display: inline;
+}
+
+.list li{
+	display: inline;
+}
+
+#navMenu a{
+	text-decoration: none;
+	color: black;
+	display: inline;
+	padding: 1vw;
+}
+
+main{
+	margin-top: 20px;
+}
+
+main nav ul{
+	/*font-family: 'Dancing Script', cursive;*/
+	font-size: 1.5em;
+	float: right;
+}
+
+#header h1{
+	margin-left: 5vw;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 3em;
+	font-family: 'Dancing Script', cursive;
+}
+
+#iconNav{
+	display: inline-block;
+	float: right;
+}
+
+footer p{
+	float: right;
+}
+
+section figure{
+	
+	overflow: hidden;
+}
+
+.resume{
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	border: 2px solid black;
+}
+
+.dp{
+	width: 40%;
+	display: block;
+	float: left;
+	border: 1px solid lightblue;
+	margin: 0px 10px;
+
+	
+}
+
+article{
+	overflow: hidden;
+
+}
+
+.aboutmediv{
+	
+	display: inline-block;
+}
+
+.aboutmeh1{
+	display: inline-block;
+	margin: auto;
+	font-size: 2em;
+}
+.aboutmep{
+	clear: right;
+}
+
+#navigation{
+	overflow: hidden;
+	margin-bottom: 5%;
+}

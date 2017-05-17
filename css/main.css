@@ -40,7 +40,7 @@ body{
 	text-decoration: none;
 	color: black;
 	display: inline;
-	padding: 1vw;
+	padding: 7px;
 }
 
 main{
@@ -120,4 +120,11 @@ article{
 #navigation{
 	overflow: hidden;
 	margin-bottom: 5%;
+}
+
+.currentNavEl{
+	border: 2px solid #ffcc99;
+	/*background-color: white;*/
+	color: red;
+
 }

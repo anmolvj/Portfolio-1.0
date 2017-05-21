@@ -3,13 +3,24 @@ layout: default
 title: Projects
 ---
 
-<h1>PROJECTS</h1>
+<h1 class="eachPageHead" >PROJECTS</h1>
 
-<ul>
+
+<ul style="padding: 10px;">
 	{% for post in site.posts %}
-	<li style="list-style: none;"> 
-			<h3> {{ post.title }} </h3>
-			<p> {{ post.meta}}</p>
+	<li style="list-style: none; padding: 10px; margin: 5vw; text-align: center; box-shadow: 2px 2px 50px;
+	-webkit-box-shadow: 2px 2px 50px;
+	-moz-box-shadow: 2px 2px 50px;
+"> 
+			
+			<a href="{{post.project-link}}" style="text-decoration: none"><h1 class="projectName"> {{ post.title }} </h1></a>
+			<h4> {{ post.meta}}</h4>
+			<p style="color: lightgrey">Technologies: {{ post.technologies}}</p>
+			
+			<img src="{{post.image}}" style="height: 30vw; " alt="">
+			
+			
+
 	</li>
 	{% endfor %}
 </ul>

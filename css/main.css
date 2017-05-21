@@ -19,6 +19,7 @@ body{
 	height: 100vh;
 	margin: auto;
 	background-color: #ffffe6;
+	color: #333333;
 }
 
 .icon{
@@ -47,7 +48,7 @@ body{
 
 #navMenu a{
 	text-decoration: none;
-	color: black;
+	color: #333333;
 	display: inline-block;
 	padding: 7px;
 }
@@ -121,15 +122,21 @@ article{
 .aboutmediv{
 	
 	display: inline-block;
+
 }
 
 .aboutmeh1{
 	display: inline-block;
 	margin: auto;
 	font-size: 2em;
+	color: #ffcc99;
+	font-family: 'Dancing Script', cursive;
 }
 .aboutmep{
 	clear: right;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5em;
+	color: #262626;
 }
 
 #navigation{
@@ -142,4 +149,23 @@ article{
 	text-decoration: none;
 
 }
+
+.eachPageHead{
+	text-align: center; 
+	font-family: 'Dancing Script', cursive;
+	padding: 10px;
+	color: #ffcc99;
+	font-size: 2.5em;
+}
+
+.projectName{
+	color: #333333;
+	display: inline-block;
+}
+
+.projectName:hover{
+	color: #ffcc99;
+}
+
+
 

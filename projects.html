@@ -8,16 +8,16 @@ title: Projects
 
 <ul style="padding: 10px;">
 	{% for post in site.posts %}
-	<li style="list-style: none; padding: 10px; margin: 5vw; text-align: center; box-shadow: 2px 2px 50px;
-	-webkit-box-shadow: 2px 2px 50px;
-	-moz-box-shadow: 2px 2px 50px;
+	<li style="list-style: none; padding: 10px; margin: 5vw; text-align: center; /*border: 1px solid lightgrey;*/ box-shadow: 2px 2px 10px ;
+	-webkit-box-shadow: 2px 2px 10px ;
+	-moz-box-shadow: 2px 2px 10px ;
 "> 
 			
 			<a href="{{post.project-link}}" style="text-decoration: none"><h1 class="projectName"> {{ post.title }} </h1></a>
 			<h4> {{ post.meta}}</h4>
 			<p style="color: lightgrey">Technologies: {{ post.technologies}}</p>
 			
-			<img src="{{post.image}}" style="height: 30vw; " alt="">
+			<img src="{{post.image}}" style="height: 30vw;  " alt="">
 			
 			
 

@@ -19,7 +19,8 @@ body{
 	height: 100vh;
 	margin: auto;
 	background-color: #ffffe6;
-	color: #333333;
+	/*background-color: lightblue;
+*/	color: #333333;
 }
 
 .icon{
@@ -122,11 +123,12 @@ article{
 .aboutmediv{
 	
 	display: inline-block;
+	text-align: center
 
 }
 
 .aboutmeh1{
-	display: inline-block;
+	/*display: inline-block;*/
 	margin: auto;
 	font-size: 2em;
 	color: #ffcc99;
@@ -134,9 +136,9 @@ article{
 }
 .aboutmep{
 	clear: right;
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.5em;
-	color: #262626;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+	/*color: #262626;*/
 }
 
 #navigation{
